@@ -45,6 +45,7 @@ namespace EpamWebTests.PageTests
         [AllureName("Insights Page Search Functionality Check")]
         [AllureDescription("Verifies that the search functionality on the EPAM Insights page works as expected.")]
         [AllureTag("Search", "InsightsPage")]
+        [AllureOwner("Ana On")]
         [Category("Smoke")]
         [AllureSeverity(SeverityLevel.critical)]
         public async Task EpamInsightsPage_SearchFunctionalityCheck()
@@ -66,7 +67,8 @@ namespace EpamWebTests.PageTests
         [AllureName("Insights Page Find Button Redirect Check")]
         [AllureDescription("Checks if the 'Find' button redirects to the correct page.")]
         [AllureTag("Redirect", "InsightsPage")]
-        [Category("Smoke")]
+        [AllureOwner("Ana On")]
+        [Category("Regression")]
         [AllureSeverity(SeverityLevel.normal)]
         public async Task EpamInsightsPage_FindButtonRedirectCheck()
         {

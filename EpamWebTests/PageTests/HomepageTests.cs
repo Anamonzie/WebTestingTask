@@ -45,6 +45,7 @@ public class Tests
     [AllureName("EPAM Homepage Title Check")]
     [AllureDescription("Checks if the title of the EPAM homepage is as expected.")]
     [Category("Regression")]
+    [AllureOwner("Ana On")]
     [AllureTag("HamburgerMenu")]
     [AllureSeverity(SeverityLevel.minor)]
     public async Task EpamHomepage_TitleCheck()
@@ -66,6 +67,7 @@ public class Tests
     [AllureName("EPAM Homepage Hamburger Menu Check")]
     [AllureDescription("Checks if the hamburger menu items are as expected.")]
     [Category("Integration")]
+    [AllureOwner("Ana On")]
     [AllureTag("HamburgerMenu")]
     [AllureSeverity(SeverityLevel.critical)]
     public async Task EpamHomepage_HamburgerMenu()
